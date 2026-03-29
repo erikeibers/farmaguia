@@ -1,3 +1,5 @@
+Antes de tudo Esse software não quer substituir um profisional farmaceutico, apenas um auxilio para quem trabalha todo dia atrás do balcão..
+
 # FarmaGuia
 
 Sistema de recomendação farmacêutica por sintomas, usando Google Gemini.
