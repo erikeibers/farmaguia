@@ -1,6 +1,6 @@
-# FarmaGuia 💊 (Google Gemini - Gratuito)
+# FarmaGuia
 
-Sistema de recomendação farmacêutica por sintomas, usando Google Gemini (gratuito) com streaming em tempo real.
+Sistema de recomendação farmacêutica por sintomas, usando Google Gemini.
 
 ## Como rodar localmente
 
@@ -8,27 +8,27 @@ Sistema de recomendação farmacêutica por sintomas, usando Google Gemini (grat
 Baixe em https://nodejs.org e instale a versão LTS.
 
 ### 2. Instale as dependências
-```bash
+
 npm install
-```
+
 
 ### 3. Configure a chave do Google
 Copie o arquivo de exemplo:
-```bash
+
 cp .env.local.example .env.local
-```
+
 
 Edite o `.env.local` e coloque sua chave:
-```
+
 GOOGLE_API_KEY=sua-chave-aqui
-```
+
 
 > Chave gratuita em: https://aistudio.google.com/apikey
 
 ### 4. Rode o projeto
-```bash
+
 npm run dev
-```
+
 
 Acesse: http://localhost:3000
 
